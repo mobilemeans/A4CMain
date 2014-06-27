@@ -1,0 +1,62 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>A4C Root</title> 	
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>	
+	<link rel="stylesheet" href="style.css" />	
+	<script src="phonegap.js"></script>
+	</head> 
+<body> 
+<div data-role="page">
+	<div data-role="header" data-theme="d">
+	<script type="text/javascript"><!--
+google_ad_client = "ca-pub-6908679240944495";
+/* MobileBanner320by50 */
+google_ad_slot = "7580604750";
+google_ad_width = 320;
+google_ad_height = 50;
+//-->
+</script>
+<script type="text/javascript" src="http://pagead2.googlesyndication.com/pagead/show_ads.js"></script>
+<script type="text/javascript">
+function abrirURL(url){
+    if(device.platform === 'Android') {
+        navigator.app.loadUrl(url, {openExternal:true});
+    } else {
+        window.open(url, '_system');
+    }
+}
+</script>
+
+		<div data-role="navbar">
+			
+		</div><!-- /navbar-->
+	</div><!-- /header -->
+
+	<div id="content" data-role="content">
+		<div id="me" class="normal">
+			
+			
+		</div>		
+		<div id="banner">
+			<p>Welcome / Bienvenue!</p>
+		</div>
+		
+		<div id="blurb">
+			<a href="http://www.example.com" target="_blank">Link</a>
+      <a href="#" onClick="abrirURL('http://www.example.com');">Link</a>
+      <a href="#" onClick="window.open('http://www.example.com', '_blank');">
+      <a href="#" onClick="window.open('http://www.example.com', '_system');">
+		</div><!-- /blurb -->	
+		
+			
+		<div id="footer">
+			<br>			
+		</div><!-- /footer -->
+	</div><!-- /content -->
+</div><!-- /page -->
+</body>
+</html>
